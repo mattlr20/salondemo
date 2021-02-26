@@ -200,6 +200,13 @@ header,main {
 }
 
 /* gallery */
-.gallery {
+.gallery-wrap {
     background-color: rgba(219, 142, 106, 0.9);
+}
+
+.instaimg img {margin-bottom:30px;}
+.instaimg img:hover {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
 }
