@@ -6,7 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h3 {
+.h3, h3 {
+	font-size: calc(1.9rem + .6vw);
     color: white;
 }
 
@@ -54,7 +55,7 @@ h3 {
 
 /* Carousel base class */
 .carousel {
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 /* Since positioning the image, we need to help out the caption */
@@ -201,7 +202,7 @@ header,main {
 
 /* gallery */
 .gallery-wrap {
-    background-color: rgba(219, 142, 106, 0.9);
+    background: linear-gradient(rgba(219, 142, 106, 0.9) 10%,rgba(219, 142, 106, 0.0));
 }
 
 .instaimg img {margin-bottom:30px;}
@@ -209,4 +210,19 @@ header,main {
 	opacity:0.8;
 	-moz-opacity:0.8;
 	-webkit-opacity:0.8;
+}
+
+.pricing-wrap {
+    background: rgba(219, 142, 106, 1);
+    padding: 15px;
+}
+
+.pricing {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.pricing img {
+    width: 100%;
+    height: auto;
 }
