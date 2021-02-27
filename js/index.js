@@ -4,7 +4,7 @@ fetch('https://ig.instant-tokens.com/users/23735319-0cf2-47ad-9d69-129e1fe9599f/
         var feed = new Instafeed({
             accessToken: data.Token,
             limit: 12,
-            template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+            template: '<div class="col-md-3 col-sm-6 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
         });
         feed.run();
     });
