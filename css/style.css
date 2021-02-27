@@ -4,12 +4,15 @@
 body {
     color: #343a40;
     font-family: 'Roboto', sans-serif;
+    padding-top: 52px;
 }
 
 .h3,
 h3 {
     font-size: calc(1.9rem + .6vw);
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    text-rendering: optimizeLegibility !important;
 }
 
 .bg-dark {
@@ -61,7 +64,7 @@ h3 {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-    bottom: 3rem;
+    bottom: 0;
     z-index: 10;
     position: absolute;
 }
